@@ -190,7 +190,7 @@ page 3-4 for more details._
 11. **General Mutation Rate:** Input field for specify the General Mutation Rate. This Rate determines the probability of Individuals to mutate.
 12. **Individual Mutation Rate:** Input field for specify the Individual Mutation Rate. This rate determines the rate at which the Individual to be mutated will be changed.
 13. **Max Iteration:** Input field for specify how many generations the Genetic Algorithm will run.
-14. **Repeat:** Input field for specify how many times the algorithm will be run. If this value is greater than one, the averages will be printed at the bottom of the result.
+14. **Repeat:** Input field for specify how many times the algorithm will be run. If this value is greater than one, the averages of optimum solutions will be printed at the bottom of the result.
 15. **Start:** Button for run the Genetic Algorithm.
 
 ---
@@ -205,7 +205,7 @@ page 3-4 for more details._
 6. **Mutation Type:** Input field for specify the Mutation Type.
 7. **Crossover Rate:** Input field for specify the ratio at which the Mutant Individual affects the new Individual to be created.
 8. **Differential Rate:** Input field for specify the Differential ratio used when generating Mutant Individuals.
-9. **Repeat:** Input field for specify how many times the algorithm will be run. If this value is greater than one, the averages will be printed at the bottom of the result.
+9. **Repeat:** Input field for specify how many times the algorithm will be run. If this value is greater than one, the averages of optimum solutions will be printed at the bottom of the result.
 10. **Start:** Button for run the Differential Evolution.
 
 ---
@@ -217,8 +217,10 @@ page 3-4 for more details._
 - _**Note:** The work in this section is not a kind of 
 [**Hyperparameter Optimization**](https://en.wikipedia.org/wiki/Hyperparameter_optimization "vikipedia").
 In this section, some Parameter Sets are defined instinctively and the performance of algorithms is tested for these Parameter Sets.
+The algorithms will be run 20 times for each Parameter Set and the averages obtained from the optimum solutions will be shown in the tables.
 Optimizing parameters can improve the performance of algorithms.
 See [**This Publication**](https://www.researchgate.net/publication/342790193_Tuning_genetic_algorithm_parameters_using_design_of_experiments "researchgate")._
+
 
 ---
 
